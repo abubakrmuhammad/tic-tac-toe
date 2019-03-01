@@ -1,0 +1,43 @@
+.Move {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Move button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 16px;
+  text-transform: inherit;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #9e9e9e;
+  cursor: pointer;
+  user-select: none;
+}
+
+.Move button:hover {
+  transition: 300ms ease;
+  background-color: #757575;
+}
+
+.Move button:active {
+  transition: 240ms ease;
+  transform: scale(0.96);
+}
+
+.Move .Current {
+  background-color: #64b5f6;
+}
+
+.Move .Current:hover {
+  background-color: #1e88e5;
+}
+
+.Move .Restart {
+  background-color: #e57373;
+}
+.Move .Restart:hover {
+  background-color: #e53935;
+}

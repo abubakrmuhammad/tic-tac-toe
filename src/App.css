@@ -1,0 +1,23 @@
+* {
+  outline: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Century Gothic', Futura, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://images.unsplash.com/photo-1518687513698-5ef14465356a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=856&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f5f5dc;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

@@ -1,0 +1,9 @@
+.GameInfo {
+  margin: 0;
+  background: transparent;
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+  text-transform: uppercase;
+  box-shadow: 0 0 25px 0 #000;
+}

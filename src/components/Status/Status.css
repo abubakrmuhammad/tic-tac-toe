@@ -1,0 +1,26 @@
+.StatusBox {
+  flex: 0.3;
+  padding: 4rem 1rem;
+  color: #fff;
+  font-size: 2rem;
+  background-color: rgba(82, 74, 76, 0.95);
+}
+
+.Status span.o {
+  color: #81c784;
+}
+
+.Status span.x {
+  color: #e57373;
+}
+
+.Status.Winner {
+  transition: 240ms ease;
+  background-color: #E53935;
+  border-radius: 15px;
+  text-align: center;
+  transform: rotate(-35deg) translateY(100%);
+  padding: 8px;
+  width: 250px;
+  margin: 0;
+}
